@@ -54,12 +54,12 @@ form div {
 }
 
 footer {
-margin: 0px;
-background-color: lightgreen;
-border: 3px solid rgba(9, 0, 0, 0.248);
-border-radius: 5px;
-text-align: center;
-margin-top: 20px;
+    margin: 0px;
+    background-color: lightgreen;
+    border: 3px solid rgba(9, 0, 0, 0.248);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 

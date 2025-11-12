@@ -11,14 +11,24 @@ body {
     padding: 10px;
 }
 
-
-footer {
-margin: 0px;
-background-color: lightgreen;
-border: 3px solid rgba(9, 0, 0, 0.248);
-border-radius: 5px;
-text-align: center;
-margin-top: 20px;
+li {
+    display: inline;
+    margin: 14px;
 }
 
 
+footer {
+    margin: 0px;
+    background-color: lightgreen;
+    border: 3px solid rgba(9, 0, 0, 0.248);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.roboto-mono-header-font {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
