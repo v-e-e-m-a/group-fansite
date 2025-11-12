@@ -1,10 +1,16 @@
 body {
-    color: rgb(0, 0, 0);
+    color: rgb(54, 54, 54);
     font-size: 14px;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: rgb(24, 90, 24);
+    font-size: 35px;
 }
 
 header {
@@ -43,6 +49,49 @@ nav a:visited {
     text-decoration: none;
 }
 
+.main-header {
+    text-align: center;
+}
+
+.section-menu {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.section-menu li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    font-size: 12px;
+    border: 2px solid rgb(24, 90, 24);
+    border-radius: 20px;
+}
+
+.section-menu li a {
+    background-color: rgb(24, 90, 24);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.section-menu li a:hover {
+    background-color: rgb(24, 90, 24);
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    border-radius: 20px;
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.section-menu li a:visited {
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 90, 24);
+    text-decoration: none;
+}
+
 footer {
     background-color: rgb(24, 90, 24);
     margin-top: 3rem;
@@ -52,10 +101,10 @@ footer {
 }
 
 .roboto-mono-font {
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .inconsolata-header-font {
@@ -65,11 +114,10 @@ footer {
     font-style: bold;
     font-variation-settings:
         "wdth" 100;
-    color: rgb(255, 255, 255);
 }
 
 .anonymous-pro-regular {
-  font-family: "Anonymous Pro", monospace;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: normal;
 }
