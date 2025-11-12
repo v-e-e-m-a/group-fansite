@@ -1,0 +1,20 @@
+li {
+    text-align: left;
+}
+
+nav {
+    background-color: forestgreen;
+    padding: 1rem;
+    font-size: 16pt;
+    font-family: Verdana;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: lighter;
+}
