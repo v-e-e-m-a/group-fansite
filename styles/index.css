@@ -1,0 +1,20 @@
+header p:first-of-type {
+  font-size: 1.06rem;
+  font-weight: 500;
+}
+
+main section:first-of-type p {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav a[aria-current="page"] {
+  font-weight: 800;
+  text-decoration: none;
+  color: darkgreen;
+}
+
+nav li {
+  margin: 10px;
+}
