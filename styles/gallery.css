@@ -1,60 +1,13 @@
-body {
-    color: rgb(54, 54, 54);
-    font-size: 14px;
-}
-
-h1 {
-    font-size: 40px;
-    color: rgb(255, 255, 255);
-}
-
-h2 {
-    color: rgb(24, 90, 24);
-    font-size: 35px;
-}
-
-header {
-    text-align: center;
-    background-color: rgb(24, 90, 24);
-    padding: 3em;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-nav {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0.5em;
-    align-items: center;
-}
-
-nav li {
-    display: inline;
-    list-style: none;
-    margin: 12px;
-    font-size: 14px;
-}
-
-nav a,
-nav a:hover,
-nav a:visited {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-.main-header {
-    text-align: center;
-}
-
 .section-menu {
     text-align: center;
-    margin: 2rem auto;
+    margin: 2em auto;
 }
 
 .section-menu li {
     display: inline-block;
     list-style: none;
-    margin: 0 0.5rem;
-    padding: 0.5rem;
+    margin: 0 0.5em;
+    padding: 0.5em;
     font-size: 12px;
     border-radius: 20px;
 }
@@ -65,40 +18,20 @@ nav a:visited {
     color: rgb(255, 255, 255);
     text-decoration: none;
     border-radius: 20px;
-    margin: 2rem auto;
-    padding: 0.5rem;
+    margin: 2em auto;
+    padding: 1em;
 }
 
 .section-menu li a:hover {
     text-decoration: underline;
 }
 
-footer {
-    background-color: rgb(24, 90, 24);
-    margin-top: 3rem;
-    padding: 2rem;
+.section-item {
     text-align: center;
-    color: rgb(255, 255, 255);
+    padding: 2em;
 }
 
-.roboto-mono-font {
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-}
-
-.inconsolata-header-font {
-    font-family: "Inconsolata", monospace;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: bold;
-    font-variation-settings:
-        "wdth" 100;
-}
-
-.anonymous-pro-regular {
-    font-family: "Anonymous Pro", monospace;
-    font-weight: 400;
-    font-style: normal;
+.section-item h3 {
+    color: rgb(24, 90, 24);
+    font-weight: bold;
 }

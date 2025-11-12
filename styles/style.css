@@ -1,111 +1,76 @@
-
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;   /* light neutral background for contrast */
-  color: #222;                 /* softer black for better readability */
+    color: rgb(54, 54, 54);
+    font-size: 14px;
 }
 
-/* --- Header --- */
+h1 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: rgb(24, 90, 24);
+    font-size: 35px;
+}
+
 header {
-  text-align: center;
-  margin-top: 10px;
-  padding: 10px 0;
-}
-
-/* --- Navigation bar (shared) --- */
-.nav {
-  text-align: center;
-  background-color: lightgreen;
-  border: 2px solid darkgray;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 10px auto;
-  max-width: 800px;             /* keeps nav nicely centered on large screens */
-}
-
-/* inline list items for nav links */
-li {
-  display: inline;
-  margin: 14px;
-}
-
-a {
-  color: darkblue;
-  text-decoration: underline;
-}
-
-a:hover {
-  text-decoration: none;
-  color: darkgreen;             /* gentle color shift on hover */
-}
-
-/* --- Main content --- */
-main {
-  padding: 20px;
-  max-width: 900px;
-  margin: 0 auto;               /* centers main text area */
-  line-height: 1.6;
-  text-align: center;
-}
-
-/* --- Headings --- */
-h1, h2 {
-  color: darkgreen;
-}
-
-/* --- Footer (shared) --- */
-footer {
-  background-color: lightgreen;
-  border: 3px solid rgba(9, 0, 0, 0.25);
-  border-radius: 5px;
-  text-align: center;
-  margin-top: 30px;
-  padding: 12px;
-  font-size: 0.95rem;
-  color: #111;
-}
-
-/* --- Optional header font style --- */
-.roboto-mono-header-font {
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}
-
-
-/*body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.nav {
     text-align: center;
-    background-color: lightgreen;
-    border: 2px solid darkgray;
-    border-radius: 5px;
-    padding: 10px;
+    background-color: rgb(24, 90, 24);
+    padding: 3em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-li {
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.5em;
+    align-items: center;
+}
+
+nav li {
     display: inline;
-    margin: 14px;
+    list-style: none;
+    margin: 12px;
+    font-size: 14px;
 }
 
+nav a,
+nav a:hover,
+nav a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.main-header {
+    text-align: center;
+}
 
 footer {
-    margin: 0px;
-    background-color: lightgreen;
-    border: 3px solid rgba(9, 0, 0, 0.248);
-    border-radius: 5px;
+    background-color: rgb(24, 90, 24);
+    margin-top: 3em;
+    padding: 2em;
     text-align: center;
-    margin-top: 20px;
+    color: rgb(255, 255, 255);
 }
 
-.roboto-mono-header-font {
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}*/
+.roboto-mono-font {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.inconsolata-header-font {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.anonymous-pro-regular {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
