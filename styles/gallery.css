@@ -34,16 +34,8 @@ nav li {
     font-size: 14px;
 }
 
-nav a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
+nav a,
+nav a:hover,
 nav a:visited {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -64,11 +56,11 @@ nav a:visited {
     margin: 0 0.5rem;
     padding: 0.5rem;
     font-size: 12px;
-    border: 2px solid rgb(24, 90, 24);
     border-radius: 20px;
 }
 
-.section-menu li a {
+.section-menu li a,
+.section-menu li a:visited {
     background-color: rgb(24, 90, 24);
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -78,18 +70,7 @@ nav a:visited {
 }
 
 .section-menu li a:hover {
-    background-color: rgb(24, 90, 24);
-    color: rgb(255, 255, 255);
     text-decoration: underline;
-    border-radius: 20px;
-    margin: 2rem auto;
-    padding: 0.5rem;
-}
-
-.section-menu li a:visited {
-    color: rgb(255, 255, 255);
-    background-color: rgb(24, 90, 24);
-    text-decoration: none;
 }
 
 footer {
