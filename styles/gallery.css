@@ -28,10 +28,28 @@
 
 .section-item {
     text-align: center;
-    padding: 2em;
+    padding: .5em;
 }
 
 .section-item h3 {
     color: rgb(24, 90, 24);
     font-weight: bold;
+}
+
+.gallery-grid {
+    overflow: hidden;
+    margin-left: 3em;
+    margin-right: -3em;
+}
+
+.gallery-grid div {
+    float: left;
+    width: 350px;
+    margin: 0 1.5em 3em 1.5em;
+}
+
+.gallery-grid div img {
+    width: 350px;
+    height: 350px;
+    display: block;
 }
