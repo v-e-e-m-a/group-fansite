@@ -24,6 +24,9 @@
 
 .section-menu li a:hover {
     text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
 }
 
 .section-item {
@@ -37,19 +40,20 @@
 }
 
 .gallery-grid {
-    overflow: hidden;
-    margin-left: 3em;
-    margin-right: -3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2.5em
 }
 
 .gallery-grid div {
-    float: left;
+    align-items: center;
     width: 350px;
-    margin: 0 1.5em 3em 1.5em;
 }
 
 .gallery-grid div img {
     width: 350px;
     height: 350px;
-    display: block;
+    display: inline-block;
 }
