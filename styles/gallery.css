@@ -1,6 +1,6 @@
 .section-menu {
     text-align: center;
-    margin: 2em auto;
+    margin: 5em auto;
 }
 
 .section-menu li {
@@ -10,12 +10,13 @@
     padding: 0.5em;
     font-size: 12px;
     border-radius: 20px;
+    font-weight: bold;
 }
 
 .section-menu li a,
 .section-menu li a:visited {
-    background-color: rgb(24, 90, 24);
-    color: rgb(255, 255, 255);
+    background-color: rgb(206, 168, 0);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     border-radius: 20px;
     margin: 2em auto;
@@ -24,14 +25,36 @@
 
 .section-menu li a:hover {
     text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
 }
 
 .section-item {
     text-align: center;
-    padding: 2em;
+    padding: .5em;
 }
 
 .section-item h3 {
     color: rgb(24, 90, 24);
     font-weight: bold;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2.5em
+}
+
+.gallery-grid div {
+    align-items: center;
+    width: 350px;
+}
+
+.gallery-grid div img {
+    width: 350px;
+    height: 350px;
+    display: inline-block;
 }
