@@ -11,7 +11,7 @@
 }
 
 
-form div {
+form {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -52,14 +52,14 @@ footer {
 }
 
 
-.tips-list {
+.nav-tips {
     display: flex; 
     flex-direction: row; 
     margin-left: 100px;              
     justify-content: space-evenly;     
             
 }
-.tips-list img {
+.nav-tips article img {
     height: 100px;
     width: auto;
 }
