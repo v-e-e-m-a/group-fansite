@@ -51,6 +51,56 @@ nav a:hover {
     text-align: center;
 }
 
+.blog-links a,
+.blog-links a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.blog-links a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+}
+
+.blog-section-item {
+    padding: 1em 5em;
+}
+
+.blog-section-item div {
+    max-width: 720px;
+    margin-bottom: 2em;
+    font-size: 13px;
+}
+
+.time {
+    font-size: 12px;
+    color: rgb(145, 118, 2);
+    margin: auto 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.back-link {
+    margin: 6em auto;
+    text-align: center;
+}
+
+.back-link a,
+.back-link a:visited,
+.back-link a:hover {
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(206, 168, 0);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 2em auto;
+    padding: .5em 1em;
+}
+
 footer {
     background-color: rgb(24, 90, 24);
     margin-top: 3em;
