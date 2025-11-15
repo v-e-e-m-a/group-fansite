@@ -1,33 +1,35 @@
 .section-menu {
     text-align: center;
-    margin: 5em auto;
+    margin: 5em 2em;
+}
+
+.section-menu ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(325px, max-content));
+    justify-content: center;
+    gap: 1em;
 }
 
 .section-menu li {
-    display: inline-block;
     list-style: none;
-    margin: 0 0.5em;
-    padding: 0.5em;
     font-size: 12px;
-    border-radius: 20px;
     font-weight: bold;
 }
 
 .section-menu li a,
 .section-menu li a:visited {
-    background-color: rgb(206, 168, 0);
-    color: rgb(0, 0, 0);
+    display: block;
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 90, 24);
     text-decoration: none;
+    border: 2px solid rgb(24, 90, 24);
     border-radius: 20px;
-    margin: 2em auto;
     padding: 1em;
 }
 
 .section-menu li a:hover {
-    text-decoration: underline;
-    text-decoration-color: rgb(0, 0, 0);
-    text-decoration-thickness: 3px;
-    text-underline-offset: 3px;
+    background-color: rgb(24, 90, 24);
+    color: rgb(255, 255, 255);
 }
 
 .section-item {
