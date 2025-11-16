@@ -54,12 +54,16 @@ form {
     width: 100px;
     height: 30px;
     margin-left: 45%;
-    background-color: rgb(206, 168, 0);
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     color: rgb(0, 0, 0);
-    border: rgb(206, 168, 0);
-    font-family: ;
-    
+    border: 2px solid rgb(24, 90, 24);
+    font-family: "Roboto Mono", monospace;
+}
+
+.button:hover {
+    background-color: rgb(24, 90, 24);
+    color: rgb(255, 255, 255);
 }
 
 footer {
