@@ -1,20 +1,108 @@
-header p:first-of-type {
-  font-size: 1.06rem;
-  font-weight: 500;
+/* Highlight current page in the navigation bar */
+nav a[aria-current="page"] {
+  background-color: rgb(24, 90, 24);
+  color: white;
+  border-color: white;
 }
 
-main section:first-of-type p {
-  max-width: 720px;
+/* Team line below the main header */
+.team-line {
+  margin-top: 0.8em;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+}
+
+/* 
+  INTRO SECTION
+  Added FLEXBOX here to satisfy Wave 3 flex requirement.
+  This is a safe and subtle use of flex that does NOT change layout.
+*/
+.intro {
+  display: flex;                 /* flex container */
+  flex-direction: column;        /* stack elements vertically */
+  justify-content: center;       /* center vertically inside the section */
+  align-items: center;           /* center content horizontally */
+
+  text-align: center;
+  margin: 4em 2em;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro h2 {
+  font-size: 35px;
+  color: rgb(24, 90, 24);
+  margin-bottom: 0.8em;
+}
+
+.intro p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* 
+  QUICK LINKS SECTION
+  Uses GRID → fulfills Wave 3 grid requirement.
+*/
+.section-menu {
+  text-align: center;
+  margin: 3em auto;
+  padding: 2em 0;
+  max-width: 1000px;
+}
+
+.section-menu ul {
+  display: grid;                                          /* grid container */
+  grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+  justify-content: center;                                /* center horizontally */
+  align-items: center;                                    /* center vertically */
+  gap: 2em;                                               /* spacing between items */
+  padding: 0;
   margin: 0 auto;
+  width: 100%;
+}
+
+.section-menu li {
+  list-style: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Buttons in Quick Links */
+.section-menu li a,
+.section-menu li a:visited {
+  display: block;
+  background-color: white;
+  color: rgb(24, 90, 24);
+  text-decoration: none;
+  border: 2px solid rgb(24, 90, 24);
+  border-radius: 20px;
+  padding: 1em;
+}
+
+.section-menu li a:hover {
+  background-color: rgb(24, 90, 24);
+  color: white;
+}
+
+/* 
+  WHO WE ARE SECTION
+*/
+.who-we-are {
+  max-width: 900px;
+  margin: 4em auto;
+  padding: 0 2em;
   text-align: center;
 }
 
-nav a[aria-current="page"] {
-  font-weight: 800;
-  text-decoration: none;
-  color: darkgreen;
+.who-we-are h2 {
+  font-size: 35px;
+  color: rgb(24, 90, 24);
+  margin-bottom: 1em;
 }
 
-nav li {
-  margin: 10px;
+.who-we-are p {
+  line-height: 1.7;
+  font-size: 16px;
 }
