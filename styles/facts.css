@@ -1,93 +1,56 @@
-body {
-    color: rgb(54, 54, 54);
-    font-size: 14px;
-}
-
-h1 {
-    font-size: 40px;
-    color: rgb(255, 255, 255);
-}
-
-h2 {
-    color: rgb(24, 90, 24);
-    font-size: 35px;
-}
-
-header {
+#titles {
     text-align: center;
-    background-color: rgb(24, 90, 24);
-    padding: 3em;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0.5em auto;
 }
 
-nav {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0.5em;
-    align-items: center;
-}
-
-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1em;
-    padding: 0;
-    margin: 1em 0 0 0;
-}
-
-nav li {
-    list-style: none;
-    margin: 0;
-    font-size: 12px;
-}
-
-nav a,
-nav a:visited {
-    display: inline-block;
-    background-color: rgb(255, 255, 255);
+#titles h1 {
     color: rgb(24, 90, 24);
-    text-decoration: none;
-    padding: 0.5em 1em;
-    border-radius: 8px;
-    border: 2px solid rgb(24, 90, 24);
-    font-weight: 500;
 }
 
-nav a:hover {
-    background-color: rgb(24, 90, 24);
-    color: rgb(255, 255, 255);
-    border-color: rgb(255, 255, 255);
+#titles h2 {
+    font-size: 24px;
 }
 
-footer {
-    background-color: rgb(24, 90, 24);
-    margin-top: 3rem;
-    padding: 2rem;
-    text-align: center;
-    color: rgb(255, 255, 255);
+main {
+    display: grid;
+    margin: auto;
 }
 
-.roboto-mono-font {
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
+/* Make the ordered list inside the article the grid container so each <li> is a grid item */
+article ol {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* use automatic row sizing so content (like images) defines height naturally */
+    grid-template-rows: auto auto;
+    gap: 1rem;
+    list-style: none; /* remove default numbering indentation so layout aligns */
+    padding-left: 0;
+    margin: 0 5%;
 }
 
-.inconsolata-header-font {
-    font-family: "Inconsolata", monospace;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: bold;
-    font-variation-settings:
-        "wdth" 100;
-    color: white;
-    font-size: 40px;
+/* Make any images inside the grid responsive so they don't overflow their cell */
+article ol img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* remove inline gap/baseline spacing */
 }
 
-.anonymous-pro-regular {
-    font-family: "Anonymous Pro", monospace;
-    font-weight: 400;
-    font-style: normal;
+#fact-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+#fact-2 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#fact-3 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+#image {
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
 }
