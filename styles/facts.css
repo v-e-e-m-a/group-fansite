@@ -3,14 +3,6 @@
     margin: 0.5em auto;
 }
 
-#titles h1 {
-    color: rgb(24, 90, 24);
-}
-
-#titles h2 {
-    font-size: 24px;
-}
-
 main {
     display: grid;
     margin: auto;
