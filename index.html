@@ -1,41 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sustainable Living</title>
 
-  <!--Google Fonts-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inconsolata:wght@200..900&family=Roboto+Mono:ital@0;1&display=swap"
-    rel="stylesheet">
-
-  <!--Favicon-->
-  <link rel="icon" type="image/png" href="../images/favicon-32x32.png">
-
-  <!--Stylesheets-->
+  <!-- Shared stylesheet (applies to all pages) -->
   <link href="styles/style.css" rel="stylesheet">
+
+  <!-- Page-specific stylesheet for index.html -->
+  <link href="styles/index.css" rel="stylesheet">
 </head>
 
-<body class=roboto-mono-font>
+<body>
   <header>
-    <nav>
-      <h1 class=inconsolata-header-font>🌱 Sustainable Living</h1>
-      <p>Small everyday choices, big planet impact.</p>
-      <p>Team: Kathryn Bello • Tatiana Didenko • Veema Jhagru • Olga Orlova</p>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="pages/tips.html">Tips</a></li>
-        <li><a href="pages/facts.html">Facts</a></li>
-        <li><a href="pages/gallery.html">Gallery</a></li>
-        <li><a href="blog.html">Blog</a></li>
-      </ul>
-    </nav>
+    <h1>Sustainable Living</h1>
+    <p>Small everyday choices, big planet impact.</p>
+    <p>Team: Kathryn Bello • Tatiana Didenko • Veema Jhagru • Olga Orlova</p>
   </header>
+
+  <nav class="nav" aria-label="Primary">
+    <ul>
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="pages/facts.html">Fun Facts</a></li>
+      <li><a href="pages/gallery.html">Gallery</a></li>
+      <li><a href="pages/tips.html">Tips</a></li>
+    </ul>
+  </nav>
 
   <main>
     <section>
@@ -49,7 +41,7 @@
 
     <section>
       <h2>Quick Links</h2>
-      <ul>
+      <ul class="quick-links">
         <li><a href="pages/facts.html">Why sustainability matters (facts)</a></li>
         <li><a href="pages/gallery.html">See real-life examples (gallery)</a></li>
         <li><a href="pages/tips.html">Start with 5 easy wins (tips)</a></li>
@@ -70,5 +62,4 @@
     <p>&copy; 2025 Team Sustainable Living. All rights reserved.</p>
   </footer>
 </body>
-
 </html>
