@@ -75,12 +75,21 @@ footer {
     display: flex; 
     flex-direction: row; 
     margin-left: 100px;              
-    justify-content: space-evenly;     
+    justify-content: space-evenly; 
+   
             
 }
 .nav-tips article img {
     height: 100px;
     width: auto;
+}
+
+article h2 {
+    visibility: hidden;font-size: 0;
+}
+
+.tips h2 {
+     text-align: center;
 }
 
 
