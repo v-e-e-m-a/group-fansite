@@ -60,3 +60,8 @@
     height: 350px;
     display: inline-block;
 }
+
+h3 {
+    color: rgb(24, 90, 24);
+    font-size: 27px;
+}
